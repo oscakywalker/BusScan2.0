@@ -14,8 +14,7 @@ time_threshold = 75000
 
 def calculate_mse(model, durations, events, model_name=None):
     """
-    计算 MSE（均方误差）用于评估模型对生存概率的预测偏差。
-
+    计算MSE（均方误差）用于评估模型对生存概率的预测偏差。
     参数:
         model: 训练好的生存分析模型（Kaplan-Meier, Weibull, Log-Logistic）。
         durations: 测试集中的持续时间或时间点。
