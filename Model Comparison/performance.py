@@ -78,11 +78,11 @@ def calculate_pearson_correlation(kde1, kde2):
     else:
         return None
 
-# State=0 相似度
+# State=0 相似度比较
 similarity_idle = calculate_cosine_similarity(kde_idle1, kde_idle2)
 print(f"State=0 Cosine Similarity: {similarity_idle}")
 
-# State=1 相似度
+# State=1 相似度比较
 similarity_occupied = calculate_cosine_similarity(kde_occupied1, kde_occupied2)
 print(f"State=1 Cosine Similarity: {similarity_occupied}")
 
